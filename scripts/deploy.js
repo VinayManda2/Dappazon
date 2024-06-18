@@ -6,7 +6,7 @@
 // global scope, and execute the script.
 const hre = require("hardhat")
 const { ethers } = require("hardhat");
-const { items } = require("../src/items.json")
+const { items } = require("./items.json")
 const fs = require("fs-extra");
 const path = require("path");
 
