@@ -1,0 +1,13 @@
+require("@nomicfoundation/hardhat-toolbox");
+/** @type import('hardhat/config').HardhatUserConfig */
+module.exports = {
+  solidity: "0.8.24",
+  paths: {
+    artifacts: "./artifacts",
+  },
+  networks: {
+    hardhat: {
+      chainId: 1337 // Localhost network chain ID
+    }
+  }
+};
